@@ -1,0 +1,11 @@
+.title__details {
+  text-align: center;
+}
+
+.article__details {
+  background-color: blue;
+  color: lightgrey;
+  margin-left: 25%;
+  text-align: center;
+  width: 50%;
+}
