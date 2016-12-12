@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function(){
           githubPrivate += responseJSON[1].private;
           githubPrivate += "</h3>";
           githubElement2.innerHTML += githubPrivate;
-      
+
 
       // Start of Article 3
       var githubName = "<h2>";

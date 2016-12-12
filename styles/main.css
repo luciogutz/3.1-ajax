@@ -1,11 +1,22 @@
-.title__details {
-  text-align: center;
-}
-
 .article__details {
   background-color: blue;
+  border-radius: 100px;
   color: lightgrey;
   margin-left: 25%;
   text-align: center;
   width: 50%;
+}
+
+.body__details {
+  margins: 20% 20% 20% 20%;
+  background: darkgrey;
+}
+
+.title__details {
+  text-align: center;
+}
+
+.img__details {
+  height: 134px;
+  margin-left: 40%;
 }
