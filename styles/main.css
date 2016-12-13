@@ -1,8 +1,22 @@
+.button__edit {
+  width: 200px;
+  height: 25px;
+  border-radius: 2px;
+}
+
 .logo__details {
   height: 35px;
   vertical-align: middle;
   margin-left: 50px;
   margin-bottom: 8px;
+}
+
+.leftSide {
+  float: left;
+  width: 200px;
+  height: 550px;
+  margin-top: 25px;
+  margin-left: 30px;
 }
 
 .nav__details {
@@ -35,7 +49,7 @@
 }
 
 .profile__pic {
-  height: 150px;
+  height: 200px;
 }
 
 .profile__details {

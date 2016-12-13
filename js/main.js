@@ -12,10 +12,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
       var responseJSON = JSON.parse(xhrData);
 
-      var profilePic = "<img>";
-          profilePic += responseJSON.;
-          profilePic += "</img>";
+      var profilePic = "<h4> Write a bio: ";
+          profilePic += responseJSON.bio;
+          profilePic += "<h4>";
           githubElement.innerHTML = profilePic;
+
 console.log(responseJSON);
 
     });
