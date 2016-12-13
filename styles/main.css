@@ -1,22 +1,53 @@
-.article__details {
-  background-color: blue;
-  border-radius: 100px;
-  color: lightgrey;
-  margin-left: 25%;
-  text-align: center;
-  width: 50%;
+.logo__details {
+  height: 35px;
+  vertical-align: middle;
+  margin-left: 50px;
+  margin-bottom: 8px;
 }
 
-.body__details {
-  margins: 20% 20% 20% 20%;
-  background: darkgrey;
+.nav__details {
+  background-color: lightgrey;
+  height: 55px;
+  line-height: 55px:
+  margin-left: 30px;
+  width: 950px;
 }
 
-.title__details {
-  text-align: center;
+.nav__Links {
+  text-decoration: none;
+  margin-left: 20px;
+  color: black;
+  line-height: 61px;
 }
 
-.img__details {
-  height: 134px;
-  margin-left: 40%;
+.nav__Right--img {
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 30px;
+  border-radius: 4px;
+}
+
+.plus {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 190px;
+  margin-bottom: 20px;
+}
+
+.profile__pic {
+  height: 150px;
+}
+
+.profile__details {
+
+}
+
+.search__details {
+  vertical-align: middle;
+  width: 280px;
+}
+
+.wrapper {
+  width: 70%;
+  height: 90%;
 }
