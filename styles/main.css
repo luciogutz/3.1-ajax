@@ -9,6 +9,11 @@
  border-bottom: solid lightgrey 1px;
 }
 
+.in__block {
+  display: inline-block;
+  margin-left: 10px;
+}
+
 .logo__details {
   height: 35px;
   vertical-align: middle;
@@ -21,17 +26,7 @@
   width: 200px;
   height: 550px;
   margin-top: 25px;
-  margin-left: 30px;
-}
-
-.main__details {
-  width: 600px;
-  float: right;
-  opacity: 0.5;
-  background-color: skyblue;
-  margin-top: 25px;
-  margin-left: 10px;
-  padding: 2px;
+  margin-left: 51px;
 }
 
 .nav__details {
@@ -56,6 +51,11 @@
   border-radius: 4px;
 }
 
+.overview {
+ display: inline-block;
+ margin-left: 40px;
+}
+
 .plus {
   display: inline-block;
   vertical-align: middle;
@@ -68,6 +68,13 @@
 }
 
 .protip {
+  display: inline-block;
+  margin-left: 17px;
+  width: 50%;
+  background-color: skyblue;
+  opacity: 0.5;
+  margin-top: 25px;
+  padding: 25px;
 
 }
 
@@ -78,9 +85,4 @@
 
 .tiy__img {
   height: 35px;
-}
-
-.wrapper {
-  width: 70%;
-  height: 90%;
 }

@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function(){
   var githubElement = document.querySelector("[data-js='profile']");
   var githubCreatedElement = document.querySelector("[data-js='created']");
   var githubLoginElement = document.querySelector("[data-js='login']");
-  var githubOrganizationsElement = document.querySelector("[data-js='organizations']");
-
+  // var githubOrganizationsElement = document.querySelector("[data-js='organizations']");
+  var githubRepoElement = document.querySelector("[data-js='repo']")
 
   var xhr = new XMLHttpRequest();
   xhr.open("GET", "https://api.github.com/users/Luciogutz");
@@ -31,15 +31,21 @@ document.addEventListener("DOMContentLoaded", function(){
           profileCreated += "</p>";
           githubCreatedElement.innerHTML = profileCreated;
 
-      var organizations = "<h3>";
-          organizations += responseJSON.organizations_url;
-          organizations += "</h3>";
-          githubOrganizationsElements.innerHTML = organizations;
+      // For some reason this section didnot seem to grab what I needed, I took out the data-js from html and just manually put it in.
+
+      // var organizations = "<h3>";
+      //     organizations += responseJSON.organizations_url;
+      //     organizations += "</h3>";
+      //     githubOrganizationsElements.innerHTML = organizations;
+      var repo = "<p> Repositories ";
+          repo += responseJSON.public_repos;
+          repo += "</p>";
+          githubRepoElement.innerHTML = repo;
+
 
 
 console.log(responseJSON);
-
-    });
+      });
 xhr.send();
 
 });
